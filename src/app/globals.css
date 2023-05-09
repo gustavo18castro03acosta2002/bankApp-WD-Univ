@@ -1,5 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Roboto", sans-serif;
+}
 
+.HomeSection {
+  @apply w-screen h-screen bg-gradient-to-b from-strongBlue1 via-strongBlue2 to-strongBlue3;
+}
+
+.NavbarSettings,
+.NavbarSettingsNotHome {
+  @apply w-screen h-20 bg-softBlue2 backdrop-filter backdrop-blur-lg border-b rounded-b-lg border-blue-900 bg-opacity-30 shadow-lg shadow-strongGray1/60 grid grid-cols-2 auto-cols-min grid-flow-col-dense absolute z-50;
+}
+
+.NavbarSettingsNotHome {
+  @apply max-w-3xl shadow-none border-none rounded-b;
+}
+
+.NavbarLogoSettings {
+  @apply col-span-2;
+}
+
+.NavbarBtnSettings {
+  @apply col-span-1 mr-16;
+}
+
+.NavbarBtnSettingsNotHome {
+  @apply col-span-2 mr-11;
+}
+
+.NavbarLogoSettingsNotHome {
+  @apply col-span-1;
+}
+
+.FlexLikeSettings {
+  @apply flex flex-row justify-between items-center;
+}
+
+.LogoBox {
+  @apply mx-14 py-2 px-6 bg-softBlue2 rounded shadow-lg shadow-softBlue1/40 border-x-strongBlue1 border-y-strongBlue1;
+}
+
+.LogoNavbar {
+  @apply text-3xl font-bold text-slate-200 tracking-widest cursor-default;
+}
+
+.GeneralBtnSettings {
+  @apply ml-10 capitalize text-slate-200 text-lg font-semibold 
+  rounded-tr-lg border-2  rounded-bl-lg tracking-widest cursor-pointer transition hover:text-slate-300 active:border-transparent;
+}
+
+.BtnMain {
+  @apply bg-softBlue1 shadow-lg shadow-softBlue3 border-softBlue1 px-4 py-2 hover:bg-softBlue3 hover:shadow-blue-950/50;
+}
+
+.BtnSecond,
+.BtnBack {
+  @apply bg-softGray2 shadow-lg shadow-strongGray2/50 border-softGray2 px-4 py-2 hover:bg-strongGray2 hover:hover:shadow-blue-950/50;
+}
+
+.BtnBack {
+  @apply flex;
+}
+/* ------------ HOME PAGE --------------------------- */
+.SectionHomeSetting {
+  @apply w-screen h-screen flex items-center justify-start;
+}
+
+.HomePageInfoBoxSetting {
+  @apply w-1/2 h-4/5 ml-14 mt-24 flex flex-col items-center justify-center bg-slate-500;
+}
