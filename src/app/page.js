@@ -4,7 +4,7 @@ import {HomePage } from "./components/HomePage.js";
 export default function Home() {
   return (
     <section className="HomeSection">
-      {/* Activate 2nd nav view <Navbar /> */}
+      {/* Activate 2nd nav view <Navbar /> 1st->homeNav */}
       <Navbar homeNav />
       <HomePage />
     </section>

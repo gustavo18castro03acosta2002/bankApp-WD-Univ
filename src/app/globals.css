@@ -44,7 +44,7 @@
 }
 
 .LogoBox {
-  @apply mx-14 py-2 px-6 bg-softBlue2 rounded shadow-lg shadow-softBlue1/40 border-x-strongBlue1 border-y-strongBlue1;
+  @apply mx-14 py-2 px-6 bg-softBlue1 rounded shadow-lg shadow-softBlue1/40 border-x-strongBlue1 border-y-strongBlue1;
 }
 
 .LogoNavbar {
@@ -57,7 +57,7 @@
 }
 
 .BtnMain {
-  @apply bg-softBlue1 shadow-lg shadow-softBlue3 border-softBlue1 px-4 py-2 hover:bg-softBlue3 hover:shadow-blue-950/50;
+  @apply bg-softBlue1 shadow-lg shadow-softBlue2/50 border-softBlue1 px-4 py-2 hover:bg-softBlue3 hover:shadow-blue-950/50;
 }
 
 .BtnSecond,

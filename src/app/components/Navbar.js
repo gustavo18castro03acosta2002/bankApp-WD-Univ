@@ -25,7 +25,7 @@ export function Navbar({ homeNav }) {
     <nav className="NavbarSettingsNotHome">
       <div className="NavbarBtnSettingsNotHome FlexLikeSettings">
         {/* BTNS */}
-        <Link className="/">
+        <Link href="/">
           <button className="GeneralBtnSettings BtnBack">
             <ArrowBack />
           </button>
