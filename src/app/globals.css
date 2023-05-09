@@ -9,8 +9,10 @@
 }
 
 .HomeSection {
-  @apply w-screen h-screen bg-gradient-to-b from-strongBlue1 via-strongBlue2 to-strongBlue3;
+  @apply bg-homepage-bg bg-cover bg-center bg-no-repeat;
 }
+
+/* bg-gradient-to-b from-strongBlue1 via-strongBlue2 to-strongBlue3 */
 
 .NavbarSettings,
 .NavbarSettingsNotHome {
@@ -72,13 +74,44 @@
 }
 
 .HomePageInfoBoxSetting {
-  @apply w-1/2 h-4/5 ml-14 mt-24 flex flex-col items-center justify-center bg-softBlue2 rounded-lg backdrop-filter backdrop-blur-lg bg-opacity-70 shadow-lg shadow-softBlue1/70;
+  @apply md:w-1/2 sm:w-max  h-4/5 ml-14 mt-24 px-11 flex flex-col items-center justify-center bg-softBlue2 rounded-xl backdrop-filter backdrop-blur-lg bg-opacity-50 shadow-lg shadow-softBlue1/70 relative;
+}
+
+.HomePageTitleSetting,
+.HomePageSubTitleSetting,
+.HomePageBtnSetting,
+.HomePageDescriptionSetting {
+  @apply flex items-center justify-start absolute overflow-auto;
 }
 
 .HomePageTitleSetting{
-  @apply flex items-center justify-start;
+  @apply top-10 left-11;
+}
+
+.HomePageSubTitleSetting{
+  @apply top-52 left-11 max-w-3xl;
+}
+
+.HomePageBtnSetting{
+  @apply top-96 left-11;
+}
+
+.HomePageDescriptionSetting{
+  @apply bottom-32 left-11 max-w-2xl;
 }
 
 .Title {
-  @apply text-5xl font-bold text-slate-200 tracking-widest cursor-default truncate;
+  @apply text-7xl font-bold text-slate-200 tracking-widest cursor-default mb-5 text-clip;
+}
+
+.SubTitle {
+  @apply text-3xl font-semibold text-slate-200 tracking-wide cursor-default;
+}
+
+.BtnOpenAccount{
+  @apply text-2xl
+}
+
+.Description{
+  @apply text-lg font-medium text-slate-200 tracking-wide cursor-default mt-5;
 }

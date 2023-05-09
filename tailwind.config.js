@@ -14,7 +14,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        home: "url('/src/Images/background-home-img.jpg')",
+        "homepage-bg": "url('/background-home-img.jpeg')",
       },
       colors: {
         strongBlue1: "#001233",
