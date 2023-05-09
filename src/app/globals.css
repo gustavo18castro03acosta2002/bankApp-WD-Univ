@@ -72,5 +72,13 @@
 }
 
 .HomePageInfoBoxSetting {
-  @apply w-1/2 h-4/5 ml-14 mt-24 flex flex-col items-center justify-center bg-slate-500;
+  @apply w-1/2 h-4/5 ml-14 mt-24 flex flex-col items-center justify-center bg-softBlue2 rounded-lg backdrop-filter backdrop-blur-lg bg-opacity-70 shadow-lg shadow-softBlue1/70;
+}
+
+.HomePageTitleSetting{
+  @apply flex items-center justify-start;
+}
+
+.Title {
+  @apply text-5xl font-bold text-slate-200 tracking-widest cursor-default truncate;
 }
