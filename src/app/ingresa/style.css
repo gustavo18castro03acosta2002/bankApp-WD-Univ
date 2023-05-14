@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.SessionSection {
+  @apply h-screen w-screen bg-homepage-bg bg-cover bg-center bg-no-repeat;
+}
+
+.ElementsPositions {
+  @apply bg-strongBlue2 h-min w-2/5 rounded-md flex flex-col justify-start items-center absolute top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4;
+}
+
+.NavBarSessionConfg {
+  @apply h-1/4 w-fit flex flex-row justify-center items-center;
+}
+
+.SessionContentConfig {
+  @apply h-full w-full my-5 ml-24 flex flex-col justify-center items-center;
+}
+
+.FormComponentSection, .FormComponentSectionSignIn {
+  @apply h-3/4 w-full flex flex-col justify-center items-start mt-10;
+}
+
+.IngresarTitle {
+  @apply text-5xl font-bold text-slate-100 mb-6 tracking-wider ;
+}
+
+.labelConfig{
+    @apply text-xl font-bold text-slate-100 mb-2 tracking-wider;
+}
+
+.InputConfig{
+    @apply mt-1 appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none  ;
+}
+
+.BtnMain {
+    @apply bg-softBlue2 hover:bg-strongBlue1 text-slate-100 font-bold py-2 px-4 rounded-tr-md rounded-bl-md transition duration-300;
+}
+
+.labelCheckBoxConfig{
+    @apply text-lg font-bold text-slate-100 mb-2 tracking-wider;
+}
+
+.CheckBoxConfig{
+    @apply mt-1 mr-2 border rounded-md py-2 px-3 text-gray-700 leading-tight focus:outline-none checked:bg-blue-800;
+}

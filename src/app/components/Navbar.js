@@ -13,7 +13,7 @@ export function Navbar({ homeNav }) {
       <div className="NavbarBtnSettings FlexLikeSettings">
         {/* BTNS */}
         {/* Actualizar Links */}
-        <Link href="/ingresar">
+        <Link href="/ingresa">
           <button className="GeneralBtnSettings BtnMain">ingresar</button>
         </Link>
         <Link href="/registrate">
